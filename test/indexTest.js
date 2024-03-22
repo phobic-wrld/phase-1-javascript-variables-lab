@@ -6,8 +6,10 @@ const path = require('path')
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 
 describe('index.js', function () {
+ // there's stuff in here, too
   describe('companyName', function () {
     it('is set as Scuber', function () {
+      // tests are here
       expect(companyName).to.equal('Scuber');
     });
 
